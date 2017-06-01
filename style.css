@@ -1,0 +1,30 @@
+.container .jumbotron {
+    border-radius: 0;
+    background-color: transparent;
+}
+img {
+    border-radius: 2px;
+}
+.jumbotron > footer > p {
+    font-family: monospace;
+    font-size: 14px;
+}
+.portrait {
+    width: 100%;
+}
+.col-md-5 {
+    padding: 15px 35px;
+}
+h1, h3 {
+    font-family: Cormorant;
+}
+.row p {
+    font-family: 'EB Garamond', serif;
+}
+.caption {
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+}
+div.row:nth-child(4) > div:nth-child(1){
+    margin-top: 50px;
+}
