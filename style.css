@@ -28,3 +28,12 @@ h1, h3 {
 div.row:nth-child(4) > div:nth-child(1){
     margin-top: 50px;
 }
+.navbar-default {
+    background-color: #E6E6FA;
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+}
+footer {
+    background-color: lavender;
+}
