@@ -1,10 +1,14 @@
-.container .jumbotron {
-    border-radius: 0;
+article {
+    font-family: Cormorant;
+    font-size: 21px;
+}
+.jumbotron {
     background-color: transparent;
 }
-img {
-    border-radius: 2px;
+.container .jumbotron {
+    border-radius: 0;
 }
+
 .jumbotron > footer > p {
     font-family: monospace;
     font-size: 14px;
@@ -21,19 +25,16 @@ h1, h3 {
 .row p {
     font-family: 'EB Garamond', serif;
 }
-.caption {
+.caption, .portrait-caption {
     font-family: 'EB Garamond', serif;
     font-size: 17px;
 }
 div.row:nth-child(4) > div:nth-child(1){
     margin-top: 50px;
 }
-.navbar-default {
-    background-color: lavender;
-    background-image: none;
-    border: 0;
-    border-radius: 0;
+#portrait {
+    max-height: 70%;
 }
-footer {
-    background-color: lavender;
+.portrait-caption {
+    padding-right: 20px;
 }
